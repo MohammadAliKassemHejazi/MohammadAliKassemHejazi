@@ -47,7 +47,7 @@ function HomePage() {
           </Col>
           <Col md={12} sm={12} xs={12} lg={4} className="text-center">
             <div className={styles.image}>
-              <img
+              <image
                 src={imagesrc}
                 alt="An Image showing Mohammad"
                 width={500}
@@ -87,7 +87,7 @@ function HomePage() {
                   <ul>
                     <li className={styles["fa-gi"]}>
                       <div>
-                        <a href="https://github.com/sanketbodke" target="blank">
+                        <a href="https://github.com/" target="blank">
                           <FaGithub className={styles.github} />
                         </a>
                       </div>
@@ -95,7 +95,7 @@ function HomePage() {
                     <li className={styles["fa-in"]}>
                       <div>
                         <a
-                          href="https://www.instagram.com/imsanketbodke/"
+                          href="https://www.instagram.com/"
                           target="blank"
                         >
                           <FaInstagram className={styles.instagram} />
@@ -105,7 +105,7 @@ function HomePage() {
                     <li className={styles["fa-li"]}>
                       <div>
                         <a
-                          href="https://www.linkedin.com/in/sanket-bodake-995b5b205/"
+                          href="https://www.linkedin.com/in/"
                           target="blank"
                         >
                           <FaLinkedinIn className={styles.linkedin} />
