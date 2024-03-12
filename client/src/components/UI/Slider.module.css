@@ -1,0 +1,18 @@
+.margin {
+  margin-bottom: 10rem;
+}
+.bar-wrap {
+  padding: 6px;
+  border-radius: 100px;
+  background-color: var(--bar-wrap-back-color);
+}
+
+.bar {
+  height: 15px;
+  transition: width 0.15s ease-out;
+  background-color: #7D6000;
+  border-radius: 100px;
+  box-shadow: inset -1px -1px 10px rgb(0 0 0 / 0.5);
+}
+
+

@@ -1,0 +1,31 @@
+.gap-5 {
+  gap: 25rem;
+}
+#left-tabs-example-tab-first:active {
+  background: #FFD700 !important;
+}
+
+
+.btn-trasparent:hover {
+  background: #FFD700 !important;
+  backdrop-filter: blur(10px) !important;
+}
+.btn-trasparent:hover .black {
+  color: #000;
+}
+.black {
+  color: #FFD700;
+}
+
+
+@media (max-width: 600px) {
+  .gap-5 {
+    gap: 15rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .gap-5 {
+    gap: 10rem;
+  }
+}

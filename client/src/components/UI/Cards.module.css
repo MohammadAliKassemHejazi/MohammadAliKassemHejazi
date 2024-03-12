@@ -1,0 +1,41 @@
+.btn {
+  background: #15181f;
+  color: rgb(136, 136, 136);
+}
+
+
+.card {
+    background: transparent !important;
+    backdrop-filter: blur(2px);
+    width: 100%;
+    border: none;
+}
+
+.card-body{
+    background: transparent;
+    border: 1px solid #7D6000;
+    border-radius : 5px;
+}
+
+div .card-title{
+ font-size: 2rem;
+  color : #eee
+}
+
+div .card-subtitle{
+   margin-bottom: 2rem;
+   color : #FFECB3
+}
+
+.card-desc{
+     color : #909090
+
+}
+
+.links{
+  color : #7D6000
+}
+
+.links:hover{
+  color : #FFECB3
+}

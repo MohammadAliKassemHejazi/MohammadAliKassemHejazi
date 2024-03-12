@@ -1,0 +1,164 @@
+@import "~bootstrap/scss/bootstrap";
+/* colors */
+$color-d--dark: #101010 !important;
+$color-dark: #282828 !important;
+$color-l--dark: #909090 !important;
+
+$color-d--gold: #7D6000 !important; // Adjusted gold color
+$color-gold: #FFD700 !important; // Your main gold color
+$color-l--gold: #FFECB3 !important; // Lightened gold color
+
+$color-d--violt: #44076a !important;
+$color-l--violt: #a03edd !important;
+
+
+
+$white: #eee !important;
+
+.btn-outline-dark {
+  color: $color-gold;
+  border-color: $color-d--gold;
+}
+
+.btn-outline-dark:hover {
+  color: $color-l--gold;
+  background-color: $color-d--gold;
+  border-color: $color-gold;
+}
+
+.h1 {
+  color: #FFD700
+}
+
+.h6 {
+  color: $color-l--dark;
+}
+.bg-cutome{
+  background-color: $color-dark; 
+}
+.dark-bg {
+  background-color: $color-d--dark;
+}
+
+.dark-text {
+  color: $color-d--dark;
+}
+
+.gold-bg {
+  background-color: $color-gold;
+}
+
+.gold-text-l {
+  color:$color-l--gold;
+}
+
+.gold-text {
+  color: $color-gold;
+}
+
+.violt-bg {
+  background-color: $color-d--violt;
+}
+
+.violt-text {
+  color: $color-d--violt;
+}
+
+.white-bg {
+  background-color: $white;
+}
+
+.white-text {
+  color: $white;
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+html {
+  /*10px*/
+  font-size: 62.5%;
+}
+
+
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+

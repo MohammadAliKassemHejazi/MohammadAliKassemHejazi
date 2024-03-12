@@ -1,0 +1,21 @@
+.opacity {
+  backdrop-filter: blur(1px);
+}
+
+.border-color{
+  border : 1px solid  #7D6000;
+ border-color:#7D6000 !important;
+
+
+}
+.box-shadow{
+   -webkit-box-shadow: 0 0 0 4px #FFD700, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+box-shadow: 0 0 0 4px #FFD700, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
+}
+
+.gold{
+  color: #FFD700;
+}
+.gold-sub {
+    color: #7D6000;
+}
